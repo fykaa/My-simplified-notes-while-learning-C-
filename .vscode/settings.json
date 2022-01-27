@@ -1,0 +1,13 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "0TIPSILEARN.C": "cpp",
+        "stdio.h": "c",
+        "3_.C": "cpp",
+        "string.h": "c",
+        "NOWW.C": "cpp",
+        "PS1.C": "cpp",
+        "2.C": "cpp",
+        "stdlib.h": "c"
+    }
+}

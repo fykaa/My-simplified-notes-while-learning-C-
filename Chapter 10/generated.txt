@@ -1,0 +1,4 @@
+This txt file is created by 7_writingfile.c
+The num is 45
+The num2 is 32
+This is an amazing way to write in a txt file without even opening it

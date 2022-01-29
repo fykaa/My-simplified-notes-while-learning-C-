@@ -3,6 +3,7 @@
 
 //LINKED LIST IS A DATATYPE THAT CONTAINS A INTEGER , AND A POINTER, SOO TO CREATE SUCH A DATATYPE WE USE STRUCTURES
 // THIS IS STRUTURE FOR LINKED LIST
+
 struct Node{
     int data;
     struct Node* next;  //just like integer ka address store krne k liye we use int* similarly structure ka address store karne ke liye we'll use structure pointer
@@ -16,7 +17,7 @@ void linkedListTraversal(struct Node *ptr){     //This function is printing each
     }
 }
 
-// THIS IS FUNCTION (NOT STRUCTURE!)
+// INSERT AT HEAD   THIS IS FUNCTION (NOT STRUCTURE!)
 struct Node* insertAtFirst(struct Node* head, int data)     //this is a function just like void int, this is struct node function!!
 {
     struct Node* ptr = (struct Node*) malloc(sizeof(struct Node));       //head , second , third, fourth ko ham already heap mein memory allocate kar chuke hai, abb jo naya ptr linked list mein add karna hai use bhi to heap mein meomory allocate karna hoga!!
@@ -25,7 +26,7 @@ struct Node* insertAtFirst(struct Node* head, int data)     //this is a function
     return ptr;
 }
 
-// THIS IS FUNCTION (NOT STRUCTURE!)
+// INSERT AT INDEX      THIS IS FUNCTION (NOT STRUCTURE!)
 struct Node* insertAtIndex(struct Node* head, int data, int index){
     struct Node* ptr = (struct Node*) malloc(sizeof(struct Node));
     struct Node* p = head;
@@ -43,7 +44,7 @@ struct Node* insertAtIndex(struct Node* head, int data, int index){
     return head;
 }
 
-// THIS IS FUNCTION (NOT STRUCTURE!)
+// INSERT IN THE END    THIS IS FUNCTION (NOT STRUCTURE!)
 struct Node* insertInEnd(struct Node* head, int data){
     struct Node* ptr = (struct Node*) malloc( sizeof(struct Node));
     struct Node* p = head;
@@ -58,7 +59,7 @@ struct Node* insertInEnd(struct Node* head, int data){
     return head;  
 }
 
-// THIS IS FUNCTION (NOT STRUCTURE!)
+// INSERT AFTER NODE    THIS IS FUNCTION (NOT STRUCTURE!)
 struct Node* insertAfterNode(struct Node* head, struct Node* prevNode, int data){
     struct Node* ptr = (struct Node*) malloc(sizeof(struct Node));
     ptr->data = data;

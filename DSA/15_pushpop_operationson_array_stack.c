@@ -61,9 +61,9 @@ int pop(struct Stack *ptr){
         int value = ptr->arr[ptr->top];
         ptr->top--;
         return value;
-    }
-    
+    } 
 }
+
 int main()
 {
     struct Stack *s = (struct Stack *)malloc(sizeof(struct Stack));

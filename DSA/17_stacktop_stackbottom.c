@@ -68,11 +68,4 @@ int main()
     return 0;
 }
 
-
-
-
-
-
-
-
-
+//SO IN STACK ARRAY WE LEARNT following FUNCTIONS : struct STACK, traversal, isEmpty, isFull, push, pop, peek, stacktop, stackbottom 
